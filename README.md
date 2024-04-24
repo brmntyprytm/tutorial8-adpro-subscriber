@@ -12,3 +12,12 @@
 
 - Subscriber
   ![img2](assets/iamges/RabbitMQ.png)
+
+#### 3 Subscribers 1 Publisher
+
+![img3](assets/iamges/3sub1pub.png)
+![img4](assets/iamges/3sub1pubrab.png)
+
+- The screenshot above shows the console output of the subscriber program. It demonstrates the successful consumption and processing of the five events sent by the publisher program. Each event contains information about a user creation event, including the user ID and user name.
+
+The subscriber program handles each received message by printing it to the console. This output confirms that the subscriber is effectively receiving and processing messages from the message broker.
