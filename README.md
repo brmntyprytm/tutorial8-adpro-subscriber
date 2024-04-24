@@ -6,12 +6,9 @@
 
 2. `amqp://guest:guest@localhost:5672` is a URI (Uniform Resource Identifier) that specifies the connection parameters for an AMQP (Advanced Message Queuing Protocol) broker. The first "guest" is the username for authentication. The second "guest" is the password for authentication. `localhost:5672` is the hostname and port of the AMQP broker. This URI is passed to the `CrosstownBus::new_queue_listener()` method to create a new listener for consuming messages from a specific queue in the AMQP broker.
 
-#### Sending and Processing Event
+#### Simulate slow requests
 
-- These screenshot shows the console output of the publisher program. Five events were successfully sent to the message broker.
+- These screenshot shows the console output of the publisher program. Five events were successfully sent to the message broker with sleep 10 ms.
 
 - Subscriber
-  ![img2](assets/iamges/Subscriber.png)
-
-- Publisher
-  ![img1](assets/iamges/Publisher.png)
+  ![img2](assets/iamges/RabbitMQ.png)
